@@ -6,13 +6,6 @@ import { FaEdit, FaTrash } from 'react-icons/fa'
 const List = ({items,handleDelete,handleEdit}) => {
 
 
-    // const handleEdit=()=>{
-    //     setName(name)
-    //     SetIsediting("edit")
-    // }
-
-
-
 
   return   <div className='grocery-list'>{items.map((item) => {
         const {id,title}=item
