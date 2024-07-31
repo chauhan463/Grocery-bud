@@ -1,6 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 const Alert = ({alert}) => {
+
+  
   const alertclass=`alert ${alert.type==="success"?" alert-success":" alert-danger"}`
   return <div className={alertclass}>{alert.msg}</div>
 }

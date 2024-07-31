@@ -58,13 +58,10 @@ function App() {
 
   }
   
-//   const showAlert =(show=false,msg="",type="") => {
-//     setAlert( {show,msg,type});
-//   }
 
     const handleDelete=(id)=>{
         setAlert({show:true,msg:"Item deleted",type:"danger"})
-        setList(list.filter((item)=>item.id!=id))
+        setList(list.filter((item)=>item.id!==id))
 
 
     }
